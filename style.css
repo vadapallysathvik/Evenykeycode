@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    background-color: darkgrey;
+}
+.container{
+    display: flex;
+
+}
+
+.key{
+    padding: 1rem 2rem;
+    border: 1px solid red; 
+    margin: 25px;
+    position: relative;
+    font-weight: bold;
+    background-color: azure;
+    box-shadow: 3px 3px 3px 3px black;
+    font-size: 20px;
+}
+.key small{
+    position: absolute;
+    top: -22px;
+    left: 0;
+    color: aqua;
+    font-size: 15px;
+}
